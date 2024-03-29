@@ -7,12 +7,13 @@ public class UserManager {
 	public UserManager() {
 		group = new ArrayList<>();
 	}
-	public static UserManager userManager = new UserManager();
+	private static UserManager userManager = new UserManager();
 	
-	private static UserManager getUserManager() {
+	public static UserManager getUserManager() {
 		return userManager;
 	}
 	
 	// User CRUD 기능
+	
 
 }
